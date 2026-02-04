@@ -1,0 +1,52 @@
+# База данных (скачивается отдельно, может быть большой)
+*.db
+ds-plus-final.db
+
+# Сохранённые модели (можно переобучить)
+*.pkl
+*.pth
+*.joblib
+*.h5
+*.hdf5
+
+# Логи и артефакты CatBoost
+catboost_info/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Временные файлы
+*.log
+*.tmp
+.cache/
